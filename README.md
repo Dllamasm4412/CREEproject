@@ -1,5 +1,5 @@
 # CREE Project
-## Repository for the CREE Project
+Repository for the CREE Project
 
 There are 3 Python scripts. 
 
