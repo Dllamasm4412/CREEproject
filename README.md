@@ -27,4 +27,41 @@ Let’s install the Mosquitto Broker.
 
 ```shell
 sudo apt update && sudo apt upgrade
-´´´
+```
+3) Press Y and Enter. It will take some time to update and upgrade (in my case, it took approximately 10 minutes).
+
+4) To install the Mosquitto Broker enter these next commands:
+```shell
+sudo apt install -y mosquitto mosquitto-clients
+```
+
+5) To make Mosquitto auto start when the Raspberry Pi boots, you need to run the following command (this means that the Mosquitto broker will automatically start when the Raspberry Pi starts):
+
+```shell
+sudo systemctl enable mosquitto.service
+```
+6) Now, test the installation by running the following command:
+```shell
+mosquitto -v
+```
+
+
+### Mosquitto Broker Enable Remote Access (No Authentication)
+
+1) Run the following command to open the ```shell mosquitto.conf ```file.
+```shell
+sudo nano /etc/mosquitto/mosquitto.conf
+```
+
+2) Move to the end of the file using the arrow keys and paste the following two lines:
+
+```shell
+listener 1883
+allow_anonymous true
+```
+3) Then, press CTRL-X to exit and save the file. Press Y and Enter.
+ 
+4) Restart Mosquitto for the changes to take effect.
+```shell
+sudo systemctl restart mosquitto
+```
