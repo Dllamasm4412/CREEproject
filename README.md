@@ -1,7 +1,9 @@
 # CREE Project
 Repository for the CREE Project
 
-There are 3 Python scripts. 
+![](imagen.pptx)
+
+# Python scripts
 
 ## Recibir
 This file is used to test that it is recieving data from the Cloud MQTT Broker.
@@ -16,7 +18,7 @@ This file is used to recieve the data from the MQTT Broker and subscribe to dife
 This file also allows us to send the data to PD. 
 
 
-## MQTT Instalation
+# MQTT Instalation
 
 After having your Raspberry Pi board prepared with Raspberry Pi OS, you can continue with this tutorial. 
 
