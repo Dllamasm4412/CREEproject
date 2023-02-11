@@ -23,7 +23,7 @@ After having your Raspberry Pi board prepared with Raspberry Pi OS, you can cont
 Let’s install the Mosquitto Broker.
 
 1) Open a new Raspberry Pi terminal window. 
-2) 2) Run the following command to upgrade and update your system:
+2) Run the following command to upgrade and update your system:
 
 ```shell
 sudo apt update && sudo apt upgrade
