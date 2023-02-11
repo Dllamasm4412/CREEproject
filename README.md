@@ -1,7 +1,7 @@
 # CREE Project
 Repository for the CREE Project
 
-![](imagen.pptx)
+![](imagen.png)
 
 # Python scripts
 
