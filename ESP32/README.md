@@ -10,7 +10,7 @@ with the MQTT Server.
 The Neuroserial program is designed to read the frecquency power spectrum and display it on the serial monitor.
 The neuromqtt is designed to publish the frecquency power spectrum in the EEG MQTT topic.
 
-![](mqtt.jpeg)
+![](mqtt.jpeg width="600" height="300")
 
 
 ## Conecting Sen0203 to Esp32
