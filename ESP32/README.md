@@ -11,7 +11,7 @@ The Neuroserial program is designed to read the frecquency power spectrum and di
 The neuromqtt is designed to publish the frecquency power spectrum in the EEG MQTT topic.
 
 ![](mqtt.jpeg =250x250)
-
+<img src="mqtt.jpeg" width="100" height="100">
 
 ## Conecting Sen0203 to Esp32
 
