@@ -1,4 +1,4 @@
-#N canvas 51 97 947 588 12;
+#N canvas 196 395 1021 450 12;
 #N canvas 990 220 450 300 Em 0;
 #X msg 153 180 52;
 #X msg 202 180 59;
@@ -68,16 +68,14 @@
 #X connect 8 0 4 0;
 #X restore 563 386 pd DM;
 #X f 6;
-#N canvas 60 25 1440 787 choir 1;
+#N canvas 913 55 1440 787 choir 0;
 #X floatatom 751 189 5 0 0 0 - - - 0;
-#X obj 921 190 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
+#X obj 921 190 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 921 247 vline~;
 #X obj 922 294 *~;
 #X obj 751 320 *~;
 #X floatatom 1119 182 5 0 0 0 - - - 0;
-#X obj 1321 197 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
+#X obj 1321 197 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 1321 254 vline~;
 #X obj 1322 301 *~;
 #X obj 1119 313 *~;
@@ -93,10 +91,8 @@
 #X obj 1119 337 *~ 0.2;
 #X obj 622 765 outlet~;
 #X obj 529 579 +~;
-#X obj 643 590 hsl 128 15 0 1 0 1 empty empty 'roomsize' 20 8 0 10
-#fcfcfc #fc8000 #000000 10200 0;
-#X obj 668 633 hsl 128 15 0 2.4 0 1 empty empty damp 20 8 0 10 #fcfcfc
-#fc8000 #000000 0 0;
+#X obj 639 585 hsl 128 15 0 1 0 1 empty empty 'roomsize' 20 8 0 10 #fcfcfc #fc8000 #000000 9600 0;
+#X obj 668 633 hsl 128 15 0 2.4 0 1 empty empty damp 20 8 0 10 #fcfcfc #fc8000 #000000 4100 0;
 #X floatatom 649 611 5 0 0 0 - - - 0;
 #X floatatom 674 653 5 0 0 0 - - - 0;
 #N canvas 592 382 406 200 vfreeverb~ 0;
@@ -838,14 +834,12 @@
 #X obj 751 212 mtof;
 #X obj 1119 205 mtof;
 #X floatatom 61 205 5 0 0 0 - - - 0;
-#X obj 231 206 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
+#X obj 231 206 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 231 263 vline~;
 #X obj 232 310 *~;
 #X obj 61 336 *~;
 #X floatatom 429 198 5 0 0 0 - - - 0;
-#X obj 631 213 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
+#X obj 631 213 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 631 270 vline~;
 #X obj 632 317 *~;
 #X obj 429 329 *~;
@@ -927,25 +921,17 @@
 #X connect 52 0 7 0;
 #X restore 431 527 pd choir;
 #X obj 446 584 output~;
-#X obj 275 266 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 353 296 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 464 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 517 246 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 568 324 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 622 274 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 994 642 +~;
-#X obj 1108 653 hsl 128 15 0 1 0 1 empty empty 'roomsize' 20 8 0 10
-#fcfcfc #fc8000 #000000 12700 0;
-#X obj 1133 696 hsl 128 15 0 2.4 0 1 empty empty damp 20 8 0 10 #fcfcfc
-#fc8000 #000000 900 0;
-#X floatatom 1114 674 5 0 0 0 - - - 0;
-#X floatatom 1139 716 5 0 0 0 - - - 0;
+#X obj 277 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 355 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 438 295 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 497 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 565 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 626 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 692 500 +~;
+#X obj 806 511 hsl 128 15 0 1 0 1 empty empty 'roomsize' 20 8 0 10 #fcfcfc #fc8000 #000000 12700 0;
+#X obj 831 554 hsl 128 15 0 2.4 0 1 empty empty damp 20 8 0 10 #fcfcfc #fc8000 #000000 900 0;
+#X floatatom 812 532 5 0 0 0 - - - 0;
+#X floatatom 837 574 5 0 0 0 - - - 0;
 #N canvas 592 382 406 200 vfreeverb~ 0;
 #N canvas 429 411 766 293 combfilters-left1 0;
 #X obj 72 227 +~;
@@ -1681,11 +1667,9 @@
 #X connect 15 0 16 0;
 #X connect 16 0 6 0;
 #X connect 17 0 2 0;
-#X restore 1055 740 pd vfreeverb~;
-#X obj 707 295 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
-#X obj 799 293 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
-#000000 #000000;
+#X restore 753 598 pd vfreeverb~;
+#X obj 705 294 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 794 295 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #N canvas 2155 344 450 300 Am 0;
 #X msg 250 99 64;
 #X obj 231 38 inlet;
@@ -1782,6 +1766,9 @@
 #X connect 7 0 3 0;
 #X connect 8 0 4 0;
 #X restore 794 382 pd Cmajor;
+#X obj 453 88 inlet;
+#X obj 417 158 route 0 1 2 3 4 5 6 7;
+#X obj 453 112 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X connect 0 0 3 0;
 #X connect 0 1 3 1;
 #X connect 0 2 3 2;
@@ -1830,3 +1817,13 @@
 #X connect 23 1 3 1;
 #X connect 23 2 3 2;
 #X connect 23 3 3 3;
+#X connect 24 0 25 0;
+#X connect 24 0 26 0;
+#X connect 25 0 5 0;
+#X connect 25 1 6 0;
+#X connect 25 2 7 0;
+#X connect 25 3 8 0;
+#X connect 25 4 9 0;
+#X connect 25 5 10 0;
+#X connect 25 6 17 0;
+#X connect 25 7 18 0;
