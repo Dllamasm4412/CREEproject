@@ -1,8 +1,8 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.1.2),
-    on June 16, 2023, at 12:05
+    on May 30, 2023, at 00:51
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -40,7 +40,9 @@ infoMarker = StreamInfo(name='Psychopy', type='Markers', channel_count=1,
                   channel_format='int32', source_id='example_stream_001')
 
 
+
 outletMarker = StreamOutlet(infoMarker)  # Broadcast the stream.
+
 
 # This is not necessary but can be useful to keep track of markers and the
 # events they correspond to.
@@ -78,7 +80,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\thiag\\Documents\\Git Repos\\CREEproject\\Python\\Psychopy\\Psychopy - Builder.py',
+    originPath='C:\\Users\\thiag\\Documents\\Git Repos\\CREEproject\\Psychopy\\Psychopy - Builder.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -232,7 +234,6 @@ for thisComponent in Session_1Components:
 t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
-
 outletMarker.push_sample(markers['Session1'])
 
 # --- Run Routine "Session_1" ---
@@ -390,9 +391,8 @@ for thisComponent in Session_2Components:
 t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
-
-
 outletMarker.push_sample(markers['Session2'])
+
 # --- Run Routine "Session_2" ---
 routineForceEnded = not continueRoutine
 while continueRoutine and routineTimer.getTime() < 20.0:
@@ -548,8 +548,8 @@ for thisComponent in Session_3Components:
 t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
-
 outletMarker.push_sample(markers['Session3'])
+
 # --- Run Routine "Session_3" ---
 routineForceEnded = not continueRoutine
 while continueRoutine and routineTimer.getTime() < 20.0:
@@ -705,8 +705,8 @@ for thisComponent in Session_4Components:
 t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
-
 outletMarker.push_sample(markers['Session4'])
+
 # --- Run Routine "Session_4" ---
 routineForceEnded = not continueRoutine
 while continueRoutine and routineTimer.getTime() < 20.0:
